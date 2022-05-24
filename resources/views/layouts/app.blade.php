@@ -26,7 +26,7 @@
     <body>
         <nav class="navbar navbar-light">
             <div class="container">
-                <a class="navbar-brand" href="{{ route('front.index') }}">conduit</a>
+                <a class="navbar-brand" href="{{ route('front.index') }}">conduit11</a>
                 {!! Menu::app() !!}
                 {{-- <ul class="nav navbar-nav pull-xs-right">
                     <li class="nav-item">
@@ -67,7 +67,7 @@
         {{ $slot }}
         <footer>
             <div class="container">
-                <a href="{{ route('front.index') }}" class="logo-font">conduit</a>
+                <a href="{{ route('front.index') }}" class="logo-font">conduit1</a>
                 <span class="attribution">
                     An interactive learning project from <a href="https://thinkster.io">Thinkster</a>. Code &amp; design
                     licensed under MIT. Implementation by <a href="https://github.com/sawirricardo" target="_blank"

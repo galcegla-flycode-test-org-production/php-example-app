@@ -39,7 +39,7 @@
                                 </div>
                                 @endif
                                 <input type="text" class="form-control" placeholder="Enter tags" wire:model="tag">
-                                <button type="button" wire:click="createTag">Create Tag</button>
+                                <button type="button" wire:click="createTag">Create Tag1</button>
                                 <div class="tag-list"></div>
                             </fieldset>
                             <button class="btn btn-lg pull-xs-right btn-primary" type="button" wire:click='saveArticle'>
